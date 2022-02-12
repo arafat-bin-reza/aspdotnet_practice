@@ -3,7 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_Practice", "CSharp_Practice\CSharp_Practice.csproj", "{EA0667FF-7747-427D-9C3F-A96BCD57C6AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp_Practice", "CSharp_Practice\CSharp_Practice.csproj", "{EA0667FF-7747-427D-9C3F-A96BCD57C6AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introduction", "Introduction\Introduction.csproj", "{5540BBE7-E750-42C1-A2BD-3F9DA81DBBFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reading and writing to a console", "Reading and writing to a console\Reading and writing to a console.csproj", "{512DB866-79F4-4F21-963A-385EAFBD25A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Built - in types", "Built - in types\Built - in types.csproj", "{BC660DB2-5B14-4132-B760-2444E19210A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String type in CSharp", "String type in CSharp\String type in CSharp.csproj", "{8A141891-FBC9-4848-A879-97146454F14A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common Operators in CSharp", "Common Operators in CSharp\Common Operators in CSharp.csproj", "{F2F9FFE3-86B9-4562-B5A5-783AB86A3D9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nullable Types", "Nullable Types\Nullable Types.csproj", "{50D27441-6785-45F4-AD0B-401742A6B040}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datatypes conversion", "Datatypes conversion\Datatypes conversion.csproj", "{3B246776-1BD1-44CE-A279-D06DC93C19E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays in CSharp", "Arrays in CSharp\Arrays in CSharp.csproj", "{178BFDB9-19F4-4133-AAF8-3E76DA07AF90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comments in CSharp", "Comments in CSharp\Comments in CSharp.csproj", "{929EBA2B-0F76-4107-99E1-EB3A74C84584}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "If statement in CSharp", "If statement in CSharp\If statement in CSharp.csproj", "{F88C7315-6340-46C9-95DC-AAB9320528D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +35,46 @@ Global
 		{EA0667FF-7747-427D-9C3F-A96BCD57C6AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA0667FF-7747-427D-9C3F-A96BCD57C6AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA0667FF-7747-427D-9C3F-A96BCD57C6AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5540BBE7-E750-42C1-A2BD-3F9DA81DBBFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5540BBE7-E750-42C1-A2BD-3F9DA81DBBFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5540BBE7-E750-42C1-A2BD-3F9DA81DBBFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5540BBE7-E750-42C1-A2BD-3F9DA81DBBFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{512DB866-79F4-4F21-963A-385EAFBD25A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{512DB866-79F4-4F21-963A-385EAFBD25A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{512DB866-79F4-4F21-963A-385EAFBD25A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{512DB866-79F4-4F21-963A-385EAFBD25A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC660DB2-5B14-4132-B760-2444E19210A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC660DB2-5B14-4132-B760-2444E19210A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC660DB2-5B14-4132-B760-2444E19210A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC660DB2-5B14-4132-B760-2444E19210A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A141891-FBC9-4848-A879-97146454F14A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A141891-FBC9-4848-A879-97146454F14A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A141891-FBC9-4848-A879-97146454F14A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A141891-FBC9-4848-A879-97146454F14A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2F9FFE3-86B9-4562-B5A5-783AB86A3D9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2F9FFE3-86B9-4562-B5A5-783AB86A3D9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2F9FFE3-86B9-4562-B5A5-783AB86A3D9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2F9FFE3-86B9-4562-B5A5-783AB86A3D9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50D27441-6785-45F4-AD0B-401742A6B040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50D27441-6785-45F4-AD0B-401742A6B040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50D27441-6785-45F4-AD0B-401742A6B040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50D27441-6785-45F4-AD0B-401742A6B040}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B246776-1BD1-44CE-A279-D06DC93C19E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B246776-1BD1-44CE-A279-D06DC93C19E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B246776-1BD1-44CE-A279-D06DC93C19E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B246776-1BD1-44CE-A279-D06DC93C19E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{178BFDB9-19F4-4133-AAF8-3E76DA07AF90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{178BFDB9-19F4-4133-AAF8-3E76DA07AF90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{178BFDB9-19F4-4133-AAF8-3E76DA07AF90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{178BFDB9-19F4-4133-AAF8-3E76DA07AF90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{929EBA2B-0F76-4107-99E1-EB3A74C84584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{929EBA2B-0F76-4107-99E1-EB3A74C84584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{929EBA2B-0F76-4107-99E1-EB3A74C84584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{929EBA2B-0F76-4107-99E1-EB3A74C84584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F88C7315-6340-46C9-95DC-AAB9320528D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F88C7315-6340-46C9-95DC-AAB9320528D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F88C7315-6340-46C9-95DC-AAB9320528D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F88C7315-6340-46C9-95DC-AAB9320528D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
