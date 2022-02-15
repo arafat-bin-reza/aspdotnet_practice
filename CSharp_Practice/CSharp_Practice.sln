@@ -5,25 +5,29 @@ VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp_Practice", "CSharp_Practice\CSharp_Practice.csproj", "{EA0667FF-7747-427D-9C3F-A96BCD57C6AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introduction", "Introduction\Introduction.csproj", "{5540BBE7-E750-42C1-A2BD-3F9DA81DBBFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Introduction", "Introduction\Introduction.csproj", "{5540BBE7-E750-42C1-A2BD-3F9DA81DBBFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reading and writing to a console", "Reading and writing to a console\Reading and writing to a console.csproj", "{512DB866-79F4-4F21-963A-385EAFBD25A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reading and writing to a console", "Reading and writing to a console\Reading and writing to a console.csproj", "{512DB866-79F4-4F21-963A-385EAFBD25A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Built - in types", "Built - in types\Built - in types.csproj", "{BC660DB2-5B14-4132-B760-2444E19210A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Built - in types", "Built - in types\Built - in types.csproj", "{BC660DB2-5B14-4132-B760-2444E19210A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String type in CSharp", "String type in CSharp\String type in CSharp.csproj", "{8A141891-FBC9-4848-A879-97146454F14A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "String type in CSharp", "String type in CSharp\String type in CSharp.csproj", "{8A141891-FBC9-4848-A879-97146454F14A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common Operators in CSharp", "Common Operators in CSharp\Common Operators in CSharp.csproj", "{F2F9FFE3-86B9-4562-B5A5-783AB86A3D9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common Operators in CSharp", "Common Operators in CSharp\Common Operators in CSharp.csproj", "{F2F9FFE3-86B9-4562-B5A5-783AB86A3D9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nullable Types", "Nullable Types\Nullable Types.csproj", "{50D27441-6785-45F4-AD0B-401742A6B040}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nullable Types", "Nullable Types\Nullable Types.csproj", "{50D27441-6785-45F4-AD0B-401742A6B040}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datatypes conversion", "Datatypes conversion\Datatypes conversion.csproj", "{3B246776-1BD1-44CE-A279-D06DC93C19E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Datatypes conversion", "Datatypes conversion\Datatypes conversion.csproj", "{3B246776-1BD1-44CE-A279-D06DC93C19E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays in CSharp", "Arrays in CSharp\Arrays in CSharp.csproj", "{178BFDB9-19F4-4133-AAF8-3E76DA07AF90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays in CSharp", "Arrays in CSharp\Arrays in CSharp.csproj", "{178BFDB9-19F4-4133-AAF8-3E76DA07AF90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comments in CSharp", "Comments in CSharp\Comments in CSharp.csproj", "{929EBA2B-0F76-4107-99E1-EB3A74C84584}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Comments in CSharp", "Comments in CSharp\Comments in CSharp.csproj", "{929EBA2B-0F76-4107-99E1-EB3A74C84584}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "If statement in CSharp", "If statement in CSharp\If statement in CSharp.csproj", "{F88C7315-6340-46C9-95DC-AAB9320528D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "If statement in CSharp", "If statement in CSharp\If statement in CSharp.csproj", "{F88C7315-6340-46C9-95DC-AAB9320528D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "switch statement in CSharp", "switch statement in CSharp\switch statement in CSharp.csproj", "{6F2478D8-ED2E-499D-A72B-C4929A2BDD37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "switch statement in CSharp continued", "switch statement in CSharp continued\switch statement in CSharp continued.csproj", "{39EAECB0-02F4-4495-AB8A-017E7252B7F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +79,14 @@ Global
 		{F88C7315-6340-46C9-95DC-AAB9320528D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F88C7315-6340-46C9-95DC-AAB9320528D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F88C7315-6340-46C9-95DC-AAB9320528D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F2478D8-ED2E-499D-A72B-C4929A2BDD37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F2478D8-ED2E-499D-A72B-C4929A2BDD37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F2478D8-ED2E-499D-A72B-C4929A2BDD37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F2478D8-ED2E-499D-A72B-C4929A2BDD37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39EAECB0-02F4-4495-AB8A-017E7252B7F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39EAECB0-02F4-4495-AB8A-017E7252B7F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39EAECB0-02F4-4495-AB8A-017E7252B7F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39EAECB0-02F4-4495-AB8A-017E7252B7F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
