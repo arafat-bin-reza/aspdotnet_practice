@@ -581,6 +581,129 @@ namespace CSharp_Practice
             } while (userChoise == "YES");
 
 
+            //Example - 2
+
+            int Totalcoffeecost2 = 0;
+            int userChoice2 = 0;
+            string userDecision2 = "";
+
+            do
+            {
+                do
+                {
+                    Console.WriteLine("Please select your coffee size: 1 - Small, 2 - Medium, 3 - Large");
+                    userChoice2 = int.Parse(Console.ReadLine());
+
+                    switch (userChoice2)
+                    {
+                        case 1:
+                            Totalcoffeecost2 += 1;
+                            break;
+                        case 2:
+                            Totalcoffeecost2 += 2;
+                            break;
+                        case 3:
+                            Totalcoffeecost2 += 3;
+                            break;
+                        default:
+                            Console.WriteLine("Your choice {0} is invalid, Please try again...", userChoice2);
+                            break;
+                    }
+                } while (userChoice2 != 1 && userChoice2 != 2 & userChoice2 != 3);
+
+
+
+                do
+                {
+                    Console.WriteLine("Do you want to buy another coffee - Yes or No?");
+                    userDecision2 = Console.ReadLine().ToUpper();
+
+                    switch (userDecision2)
+                    {
+                        case "YES":
+                            break;
+                        case "NO":
+                            break;
+                        default:
+                            Console.WriteLine("Your choice {0} is invalid, Please try again...", userDecision2);
+                            break;
+                    }
+
+                } while (userDecision2 != "YES" && userDecision2 != "NO");
+            } while (userDecision2 == "YES");
+
+            Console.WriteLine("Thank you for shopping with us");
+            Console.WriteLine("Bill Amount = {0}", Totalcoffeecost2);
+
+
+            //C# Tutorial - for and foreach loops in c#
+
+            //Example - 1 (for loop)
+
+            int[] numbers = new int[3];
+            numbers[0] = 101;
+            numbers[1] = 102;
+            numbers[2] = 103;
+
+            for (int iiii = 0; iiii < numbers.Length; iiii++)
+            {
+                Console.WriteLine(numbers[iiii]);
+            }
+
+            //Example - 2 (for loop)
+
+            int[] numbers2 = new int[3];
+            numbers2[0] = 101;
+            numbers2[1] = 102;
+            numbers2[2] = 103;
+
+            for (int iii = 0; iii <= numbers2.Length; iii++) // we have only 3 element in array, but condition is looking for 4th element
+            {
+                Console.WriteLine(numbers[iii]); //System.IndexOutOfRangeException: 'Index was outside the bounds of the array.', This is a runtime exception
+            }
+
+            //Example - 3 (foreach loop)
+
+            int[] numbers3 = new int[3];
+            numbers3[0] = 101;
+            numbers3[1] = 102;
+            numbers3[2] = 103;
+
+            foreach (var k in numbers3)
+            {
+                Console.WriteLine(k);
+            }
+
+            //Example - 4 (for loop - using break statement)
+
+            for (int ii = 0; ii <= 20; ii++)
+            {
+                Console.WriteLine(ii);
+                if (ii == 10)
+                {
+                    break;
+                }
+            }
+
+            //Example - 5 (for loop - even numbers)
+
+            for (int i5 = 0; i5 <= 20; i5 = i5 + 2)
+            {
+                Console.WriteLine(i5);
+            }
+
+            //Example - 6 (for loop - even numbers using continue statement)
+
+            for (int i6 = 0; i6 <= 20; i++)
+            {
+                if (i6 % 2 == 1)
+                {
+                    continue;
+                }
+                Console.WriteLine(i6);
+            }
+
+
         }
 
         static void Main1()

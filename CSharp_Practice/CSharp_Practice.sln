@@ -31,7 +31,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "switch statement in CSharp 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "while loop in CSharp", "while loop in CSharp\while loop in CSharp.csproj", "{8410B8FE-C70D-46E0-A506-C2073AFE363B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "do while loop in CSharp", "do while loop in CSharp\do while loop in CSharp.csproj", "{43760469-FAC8-4FAE-9461-33016B162989}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "do while loop in CSharp", "do while loop in CSharp\do while loop in CSharp.csproj", "{43760469-FAC8-4FAE-9461-33016B162989}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "do while loop in CSharp continued", "do while loop in CSharp continued\do while loop in CSharp continued.csproj", "{5651B973-738E-4477-915E-FFDEE3756584}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "for and foreach loops in Csharp", "for and foreach loops in Csharp\for and foreach loops in Csharp.csproj", "{304A470E-3984-4CB4-922F-AF1136C7D687}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +103,14 @@ Global
 		{43760469-FAC8-4FAE-9461-33016B162989}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43760469-FAC8-4FAE-9461-33016B162989}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43760469-FAC8-4FAE-9461-33016B162989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5651B973-738E-4477-915E-FFDEE3756584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5651B973-738E-4477-915E-FFDEE3756584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5651B973-738E-4477-915E-FFDEE3756584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5651B973-738E-4477-915E-FFDEE3756584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{304A470E-3984-4CB4-922F-AF1136C7D687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{304A470E-3984-4CB4-922F-AF1136C7D687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{304A470E-3984-4CB4-922F-AF1136C7D687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{304A470E-3984-4CB4-922F-AF1136C7D687}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
