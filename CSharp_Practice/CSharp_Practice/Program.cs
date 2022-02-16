@@ -518,6 +518,69 @@ namespace CSharp_Practice
             Console.WriteLine("Bill Amount = {0}", Totalcoffeecost);
 
 
+            //C# Tutorial - while loop in c#
+
+            //Example - 1 
+
+            Console.WriteLine("Please enter your target?");
+            int target = int.Parse(Console.ReadLine());
+            int start = 0;
+
+            while (start <= target)
+            {
+                Console.Write("{0} ", start);
+                start = start + 2;
+            }
+
+            Console.WriteLine();
+
+            //Example - 2 - Never ending loop
+
+            Console.WriteLine("Please enter your target?");
+            int target2 = int.Parse(Console.ReadLine());
+            int start2 = 0;
+
+            while (start2 <= target2)
+            {
+                Console.Write("{0} ", start2);
+                //start2 = start2 + 2; //do not forget to add increament in while loop, otherwise it might become a Never ending loop 
+            }
+
+
+            //C# Tutorial - do while loop in c#
+
+            //Example - 1 
+
+            string userChoise = "";
+            //string userChoise = string.Empty;
+
+            do
+            {
+                Console.WriteLine("Please enter your target?");
+                int target3 = int.Parse(Console.ReadLine());
+                int start3 = 0;
+
+                while (start3 <= target3)
+                {
+                    Console.Write("{0} ", start3);
+                    start3 = start3 + 2;
+                }
+
+                Console.WriteLine();
+
+                do
+                {
+                    Console.WriteLine("Do you want to continue - Yes or No");
+                    userChoise = Console.ReadLine().ToUpper();
+
+                    if (userChoise != "YES" && userChoise != "NO")
+                    {
+                        Console.WriteLine("Invalid Choice, please enter Yes or No");
+                    }
+                } while (userChoise != "YES" && userChoise != "NO");
+            } while (userChoise == "YES");
+
+
         }
 
         static void Main1()
